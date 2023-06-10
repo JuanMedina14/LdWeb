@@ -349,6 +349,9 @@ textarea {
     overflow: hidden;
   }
   /* Aqui comienza Nosotros Responsive----------------------------------------------------- */
+  .servicios__foto {
+    width: 380px;
+  }
   .servicios__foto:hover {
     box-shadow: #838385 1px 2px 1px;
     margin-top: 0px;
@@ -388,6 +391,16 @@ textarea {
     font-size: 1rem;
     margin-left: 0px;
     margin-top: 2%;
+  }
+}
+@media screen and (max-width: 631px) {
+  .profesores__fotos {
+    width: 380px;
+    background-color: #414141;
+    border: #414141 5px solid;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
   }
 }
 @media screen and (max-width: 950px) {
