@@ -6,7 +6,8 @@
     }
 
     .bg {
-        height: 50vh;
+        background-position: center;
+        
     }
 
 
@@ -59,9 +60,16 @@
     .imagenPortada {
         display: none;
     }
+/* Aqui comienza Clases Responsive----------------------------------------------------- */
 
-
-
+.profesores__fotos {
+        width: 300px;
+        background-color: $secundario;
+        border: $secundario 5px solid;
+        margin: 3px;
+        position: relative;
+        overflow: hidden;
+    }
 
 
     /* Aqui comienza Nosotros Responsive----------------------------------------------------- */

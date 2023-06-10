@@ -130,7 +130,6 @@ h5 {
   font-family: "Bebas Neue", cursive;
   color: #ffffff;
   font-size: 1.5rem;
-  margin-left: 1em;
   padding: 0 1em;
   border: #ffffff solid 1px;
   border-radius: 10px;
@@ -303,7 +302,7 @@ textarea {
     flex-direction: column;
   }
   .bg {
-    height: 50vh;
+    background-position: center;
   }
   h1 {
     font-size: 3em;
@@ -342,6 +341,15 @@ textarea {
   }
   .imagenPortada {
     display: none;
+  }
+  /* Aqui comienza Clases Responsive----------------------------------------------------- */
+  .profesores__fotos {
+    width: 300px;
+    background-color: #414141;
+    border: #414141 5px solid;
+    margin: 3px;
+    position: relative;
+    overflow: hidden;
   }
   /* Aqui comienza Nosotros Responsive----------------------------------------------------- */
   .servicios__foto:hover {
@@ -397,7 +405,7 @@ textarea {
     width: 95vw;
   }
   .bg {
-    height: 90vh;
+    height: 75vh;
   }
   #boton {
     width: 50%;
