@@ -242,7 +242,6 @@ form {
   padding: 10px 20px;
   box-sizing: border-box;
   margin-top: 20px;
-  margin-bottom: 20px;
   border-radius: 10px;
 }
 
@@ -261,14 +260,14 @@ textarea {
   max-width: 100%;
 }
 
-#boton {
+.footer__boton {
   border: #414141 1px solid;
-  color: #000000;
-  padding: 15px;
+  color: #ffffff;
+  padding: 2px 5px;
+  margin-left: 10px;
   transition: 0.4s;
 }
-
-#boton:hover {
+.footer__boton:hover {
   cursor: pointer;
   background: #414141;
   color: #ffffff;
@@ -284,6 +283,7 @@ textarea {
   background-image: url(../imagenes/grupo.jpg);
   background-position: center;
   background-size: cover;
+  height: 600px;
 }
 
 .row img {
@@ -386,6 +386,7 @@ textarea {
   }
   .footer__boton {
     font-size: 1rem;
+    margin-left: 0px;
     margin-top: 2%;
   }
 }
@@ -404,9 +405,8 @@ textarea {
   .bg {
     height: 75vh;
   }
-  #boton {
+  .boton {
     width: 50%;
-    margin-left: 25%;
   }
   /* Aqui comienza Nosotros Responsive ------------------------------------------------- */
   .servicios {
