@@ -282,7 +282,7 @@ textarea {
 
 .bg {
   background-image: url(../imagenes/grupo.jpg);
-  height: 100vh;
+  background-position: center;
   background-size: cover;
 }
 
@@ -300,9 +300,6 @@ textarea {
   header {
     display: flex;
     flex-direction: column;
-  }
-  .bg {
-    background-position: center;
   }
   h1 {
     font-size: 3em;
@@ -445,7 +442,7 @@ textarea {
     width: 80%;
   }
   .bg {
-    height: 95vh;
+    height: 75vh;
   }
   #boton {
     padding: 5px;
